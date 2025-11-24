@@ -17,6 +17,26 @@ const notoSansGujarati = Noto_Sans_Gujarati({
 export const metadata: Metadata = {
   title: "Sandip & Sarita's Wedding",
   description: "Join us in celebrating the wedding of Sandip & Sarita",
+  openGraph: {
+    title: "Sandip & Sarita's Wedding",
+    description: "Join us in celebrating the wedding of Sandip & Sarita",
+    images: [
+      {
+        url: "/placeholder-1.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Sandip & Sarita's Wedding",
+      },
+    ],
+    type: "website",
+    locale: "gu_IN",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sandip & Sarita's Wedding",
+    description: "Join us in celebrating the wedding of Sandip & Sarita",
+    images: ["/placeholder-1.jpg"],
+  },
 };
 
 export default function RootLayout({
