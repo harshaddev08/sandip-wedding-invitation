@@ -15,19 +15,14 @@ const notoSansGujarati = Noto_Sans_Gujarati({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sandip-wedding-invitation.vercel.app"),
   title: "Sandip & Sarita's Wedding",
   description: "Join us in celebrating the wedding of Sandip & Sarita",
   openGraph: {
     title: "Sandip & Sarita's Wedding",
     description: "Join us in celebrating the wedding of Sandip & Sarita",
-    images: [
-      {
-        url: "/placeholder-1.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Sandip & Sarita's Wedding",
-      },
-    ],
+    url: "https://sandip-wedding-invitation.vercel.app",
+    siteName: "Sandip & Sarita's Wedding",
     type: "website",
     locale: "gu_IN",
   },
@@ -35,7 +30,6 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sandip & Sarita's Wedding",
     description: "Join us in celebrating the wedding of Sandip & Sarita",
-    images: ["/placeholder-1.jpg"],
   },
 };
 
